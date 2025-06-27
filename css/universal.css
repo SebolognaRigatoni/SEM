@@ -7,10 +7,12 @@ body {
 a:link { 
     text-decoration:none;
     color: inherit;
-    font-family:calibri;
-    font-weight:275;
+  font-family: "sweet-square-pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
     padding:10%;
-    font-size:125%
+    font-size:120%
 }
 a:visited {
     color: inherit;
@@ -22,9 +24,10 @@ a:hover {
 
 
 form {
-    font-family:calibri;
-    text-align:center; 
-    font-size:x-large;
+  font-family: "sweet-square-pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 
 
 }
@@ -65,20 +68,25 @@ form {
 
 h1 {
     text-align: center;
-    font-family:calibri
+    font-family: "sweet-square-pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
-p2 {
-    text-align: center;
-    font-size: 30px;
-    font-family:calibri
-}
 
-p {
-font-family:calibri;
+
+
+
+p 
+{
 margin-left:15%;
 margin-right:15%;
-font-size:x-large;
+font-size:23.5px;
+font-family: "sweet-square-pro", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
 }
 
 img {  
@@ -86,13 +94,14 @@ img {
 }
 
 .navbar ul { 
-    list-style-type: none;
+    margin:0;
+    padding:0;
     color: white;
-    text-align:center;
 }
 .navbar li {
-    display: inline;
-    color: white;
+display:inline-block;
+padding:0px 20px;
+color: white;
 }
 
 .navbar li a.active {
@@ -101,7 +110,6 @@ img {
 }
 
 .navbar {
-    border-radius:25px;
     background-color:#1a1815;
     overflow:clip;
 }
