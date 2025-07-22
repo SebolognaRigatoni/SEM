@@ -1,36 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10%;
+}
+
+button {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #ff7300;
+    border: none;
+    font-size: 16px;
+    font-family: "sweet-square-pro", sans-serif;
+    border-radius: 12px;
+}
+
+li,
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "sweet-square-pro", sans-serif;
+    color: white;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*
+TODO: fix navbar size adjustment being awkward
+ */
+.navLinks :hover {
+    font-size: 25px;
+}
+
+
+header img {
+    max-height: 8vh;
+}
 
 body {
     background-color: #131310;
     color: #eaeded;
 }
 
-a:link { 
-    text-decoration:none;
-    color: inherit;
-  font-family: "sweet-square-pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-    padding:10%;
-    font-size:120%
-}
+
+
 a:visited {
     color: inherit;
 }
 
 a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 
 form {
-  font-family: "sweet-square-pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "sweet-square-pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 
 }
+
 .promo {
     display: flex;
     gap: 10px;
@@ -38,7 +79,13 @@ form {
     max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
-    font-size:larger
+    font-size: larger;
+
+    img {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #ff7300
+    }
 }
 
 .cover {
@@ -49,8 +96,8 @@ form {
     flex: 1 1 50%;
     padding: 5px;
     box-sizing: border-box;
-    border-radius:50%;
-    font-family:calibri;
+    border-radius: 50%;
+    font-family: calibri;
 }
 
 .column img {
@@ -63,53 +110,47 @@ form {
     max-height: 100%;
     aspect-ratio: 1;
     text-align: center;
-  
+
 }
 
-h1 {
-    text-align: center;
+h {
+    display: flex;
+    justify-content: center;
     font-family: "sweet-square-pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #ff7300;
+    margin: 1px 0% 0%;
 }
 
 
 
-
-
-p 
-{
-margin-left:15%;
-margin-right:15%;
-font-size:23.5px;
-font-family: "sweet-square-pro", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 23.5px;
+    font-family: "sweet-square-pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: #ff7300;
+    padding: 10px;
 }
 
-img {  
+img {
     border-radius: 8px;
+
 }
 
-.navbar ul { 
-    margin:0;
-    padding:0;
-    color: white;
-}
-.navbar li {
-display:inline-block;
-padding:0px 20px;
-color: white;
-}
+/* TODO: add image next to text
+*/
+.servicesP {
+    .img {
+        max-width: 1%;
+    }
 
-.navbar li a.active {
-   background-color:rgb(255, 94, 0);
-   box-sizing:border-box;
-}
-
-.navbar {
-    background-color:#1a1815;
-    overflow:clip;
 }
