@@ -1,0 +1,15 @@
+.imageP {
+    margin-left: 0%;
+}
+
+.imageP {
+    display: block;
+
+    img {
+        height: 20em;
+        border-radius: 0px;
+        margin:auto;
+    }
+
+}
+

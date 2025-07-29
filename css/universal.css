@@ -53,7 +53,6 @@ body {
 }
 
 
-
 a:visited {
     color: inherit;
 }
@@ -125,6 +124,17 @@ h {
     margin: 1px 0% 0%;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "sweet-square-pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #ff7300;
+    margin: 1px 20% 0%;
+}
 
 
 p {
@@ -148,9 +158,46 @@ img {
 
 /* TODO: add image next to text
 */
-.servicesP {
-    .img {
-        max-width: 1%;
+.imageP {
+    display: flex;
+
+    img {
+        object-fit: cover;
+        max-width: 100px;
+        max-height: 100px;
     }
 
+}
+
+table,
+th,
+td {
+    align-content: center;
+    border: 1px solid;
+    border-color: #ff7300;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    font-family: "sweet-square-pro", sans-serif;
+}
+
+th {
+    font-size: x-large;
+}
+
+form {
+    font-family: "sweet-square-pro", sans-serif;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
